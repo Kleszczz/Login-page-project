@@ -36,7 +36,7 @@
 
 		<div class="nav">
 			<ol>
-                <li><a href="index.php">Strona główna</a></li>
+               	 		<li><a href="index.php">Strona główna</a></li>
 				<li><a href="aboutauthor.php">O autorach</a></li>
 				<?php
 					if(isset($_SESSION["Username"]))
@@ -53,12 +53,8 @@
 			</ol>
 		</div>
 		
-		<script src="main.js"></script>
+	<script src="main.js"></script>
 
-
-
-	
-
-<?php 
-	include_once 'includes/footer.php';
-?>
+	<?php 
+		include_once 'includes/footer.php';
+	?>
