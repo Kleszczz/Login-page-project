@@ -1,0 +1,130 @@
+body
+{
+	background-color: #474444;
+	color: #ffffff;
+	font-family: 'Lato', sans-serif;
+	font-size: 20px;
+}
+
+.container
+{
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+.header
+{
+	width:100%;
+	padding: 40px 0;
+}
+
+.logo
+{
+	width: 450px;
+	font-size: 90px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+.nav
+{ 
+	width: 100%;
+	padding: 10px 0;
+	background-color: #12a55b;
+	text-align: center;
+	border-top: 1px solid #ffffff;
+	border-bottom: 1px solid#ffffff;
+	margin-left:auto;
+	margin-right: auto;
+}
+
+.login
+{
+	width: 60%;
+	margin: auto;
+	text-align: center;
+}
+
+.footer
+{
+	margin-top: 34%;
+	text-align: center;
+	background-color: #222222;
+	padding: 30px;
+}
+
+ol
+{
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+	font-size: 18px;
+	height: 35px;
+	line-height: 200%;
+	display: inline-block;
+}
+
+ol a
+{
+	color: #ffffff;
+	text-decoration: none;
+	display: block;
+}
+
+ol > li
+{
+	float: left;
+	width: 150px;
+	height: 40px;
+	border-right: 1px dashed #ffffff;
+}
+
+ol > li:first-child
+{
+	border-left: 1px dashed #ffffff;
+}
+
+ol > li:hover
+{
+	background-color: #178538;
+}
+
+ol > li:hover > a
+{
+	color: #ffffff;
+}
+
+ol > li > ul
+{
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	height: 40px;
+	display: none;
+}
+
+ol > li:hover > ul
+{
+	display: block;
+}
+
+ol > li > ul > li
+{
+	background-color:#50f33b;
+	position: relative;
+	z-index: 100;
+	border-top: 1px dashed #ffffff;
+}
+
+ol > li > ul > li:hover
+{
+	background-color: #50f33b;
+}
+
+ol > li > ul > li:hover > a
+{
+	color:#ffffff;
+}
